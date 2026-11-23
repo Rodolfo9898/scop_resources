@@ -1,0 +1,15 @@
+# Only run.sh, src/ (its modules in src/sh/ and the archive), this file and the README are kept in git. The resources themselves
+# (the .obj models and the rest of the archive) are extracted from src/*.tgz by run.sh, so they are ignored. To keep one more file
+# at the root, add a line "!/name" below.
+/*
+!/.gitignore
+!/README.md
+!/run.sh
+!/src/
+
+# Editors and OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
